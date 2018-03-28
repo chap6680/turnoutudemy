@@ -1,0 +1,29 @@
+<template>
+<div class="from-inline">
+	<h3>Sign In</h3>
+	<div class="form-group"></div>
+	<input 
+	type = "text"
+	placeholder="email"
+	class="form-control"
+	v-model="email"
+	/>
+	<input
+	type = "password"
+	placeholder="password"
+	class="form-control"
+	v-model="password"
+	/>
+	<button type="btn btn-primary">Sign In </button>
+</div>
+</template>
+<script>
+export default {
+  data(){
+	  return{
+		  email:'',
+		  password:''
+	  }
+  }
+}
+</script>
