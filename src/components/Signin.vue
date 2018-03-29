@@ -18,6 +18,7 @@
 	<br>
 	<p>{{error.message}}</p>
 	<br>
+	<router-link to="/signup">Not a User?</router-link>
 </div>
 </template>
 <script>
